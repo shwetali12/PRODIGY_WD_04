@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+<div class="container mt-5 p-5">
+    <!-- templates/contact.html -->
+<form method="post" action="">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+</form>
+
+    
+    </div>
+</div>
+{% endblock %}

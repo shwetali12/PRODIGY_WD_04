@@ -1,0 +1,161 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+<div class="container">
+    <!--Skills-->
+    <div class="my-5 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">My Skills</h2>
+    
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+              <p>Block Element, Inline Elements, Form Element, Input Attribute</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CSS</h3>
+              <p>Margine, Padding, Border, Positioning, Float, Box model, Inheritance</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Bootstrap</h3>
+              <p>Buttons, Table, Verticle Forms, Horizontal forms, Inline Forms, Dropdowns, Responsive Tabs, Alerts</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Python</h3>
+              <p>Itertools, Lambda Function, Exception Handling, Decorators, Collections, Generators</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Django</h3>
+              <p>Database design, Authentication and Authorization, Flow of data (forms → views → database → and back), How static and media file configuration fits in with Django
+                , Deployment</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Mysql/sql</h3>
+              <p> insert records, update records, delete records, select records, create tables, drop tables, </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Javascript</h3>
+              <p>I have a good knowledge of Javascript</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Git</h3>
+              <p>push code to repository.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--Language-->
+    <div class="my-2 py-2" id="icon-grid">
+      <h2 class="pb-2 border-bottom">Language Known</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">English</h3>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Hindi</h3>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Marathi</h3>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--PROJECTS-->
+    <div class="my-2 py-2" id="icon-grid">
+      <h2 class="pb-2 border-bottom">My Projects</h2>
+      <div class="row my-5">
+        <div class="col-md-5">
+            <img class="image-fluid w-100" style="height: 100%;" src="{% static 'emp.jpg' %}">
+        </div>
+        <div class="col-md-7 py-3">
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Employee Management system</h3>
+              <p> In this project, I enable employees to manage their personal information while ensuring that only they can edit or delete their data. 
+                Managers have the ability to add, delete, and edit employee information.</p>
+              <p>Please click below to visit the website.</p>
+
+              <a href="https://madhavipoman.pythonanywhere.com">Employee Management system</a><br>
+              <a href="https://github.com/shwetali12/Employee-management-system/tree/master">GitHUB Link</a>
+            </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-7 py-3">
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Social foundation website Front end design</h3>
+              <p>In this project, i worked on front end design.This project involves creating a responsive website with features such as a responsive navbar and many more."</p>
+              <p>Please click below to visit the website</p>
+
+              <a href="https://shwetalijagdale.pythonanywhere.com/">Nayepankh Foundation</a><br>
+              <a href="https://github.com/shwetali12/ice-cream-website/tree/master">GitHUB Link</a>
+            </div>
+        </div>
+        <div class="col-md-5">
+          <img class="image-fluid w-100" style="height: 100%;" src="{% static 'naye1.jpg' %}">
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-5">
+            <img class="image-fluid w-100" style="height: 100%;" src="{% static 'flight.jpg' %}">
+        </div>
+        <div class="col-md-7 py-3">
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Flight data</h3>
+              <p>In this project, I worked on both the front-end and back-end, extracting data from the database.</p>
+              <p>Please click below to visit the website</p>
+              <a href="https://shwetali.pythonanywhere.com/">Flight data</a>
+            </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-7 py-3">
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Ecommerce Wbsite</h3>
+              <p>In this project, i worked on front end design.This project involves creating a responsive website with features such as a responsive navbar and many more."</p>
+              <p>Please click below to visit the website</p>
+
+              <a href="https://jagdale.pythonanywhere.com/">Ecommerce Website</a><br>
+              <a href="https://github.com/shwetali12/ice-cream-website/tree/master">GitHUB link</a>
+            </div>
+        </div>
+        <div class="col-md-5">
+          <img class="image-fluid w-100" style="height: 100%;" src="{% static 'empscreen.png' %}">
+        </div>
+      </div>
+      
+    </div>
+</div>
+
+{% endblock %}
